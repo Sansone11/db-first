@@ -1,0 +1,17 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
+
+Nome tabella : Vendita auto usate
+
+colonne:
+
+
+id                     BIGINT          PK: AUTO_INCREMENT,  UNIQUE, NOT_NULL
+targa                  VARCHART(15)    UNIQUE,NOT_NULL
+modello                VARCHART(25)    NOT_NULL
+marca                  VARCHART(25)    NOT_NULL
+anno_di_produzione     YEAR            NOT_NULL
+stato                  VARCHART(255)    NULLABLE
+Km percorsi                            NOT_NULL
+revisionata            VARCHART(2)     NULLABLE
+prezzo di vendita                      NOT_NULL
+
