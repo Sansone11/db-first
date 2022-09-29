@@ -14,5 +14,5 @@ anno_di_produzione     YEAR            NOT_NULL
 stato                  TEXT            NULLABLE
 Km percorsi            FLOAT(4,6)      NOT_NULL
 revisionata            VARCHART(2)     NULLABLE
-prezzo di vendita      FLOAT(8,6)      NOT_NULL
+prezzo di vendita      FLOAT(8,2)      NOT_NULL
 
