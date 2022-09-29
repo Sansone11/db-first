@@ -12,7 +12,7 @@ colore                 VARCHART(20)    NULLABLE
 marca                  VARCHART(25)    NOT_NULL
 anno_di_produzione     YEAR            NOT_NULL
 stato                  TEXT            NULLABLE
-Km percorsi            FLOAT(4,6)      NOT_NULL
+Km percorsi            FLOAT(7,1)      NOT_NULL
 revisionata            VARCHART(2)     NULLABLE
 prezzo di vendita      FLOAT(8,2)      NOT_NULL
 
