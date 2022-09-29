@@ -10,8 +10,8 @@ targa                  VARCHART(15)    UNIQUE,NOT_NULL
 modello                VARCHART(25)    NOT_NULL
 marca                  VARCHART(25)    NOT_NULL
 anno_di_produzione     YEAR            NOT_NULL
-stato                  VARCHART(255)    NULLABLE
-Km percorsi                            NOT_NULL
+stato                  TEXT            NULLABLE
+Km percorsi            INT             NOT_NULL
 revisionata            VARCHART(2)     NULLABLE
-prezzo di vendita                      NOT_NULL
+prezzo di vendita      FLOAT(8,6)      NOT_NULL
 
