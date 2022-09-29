@@ -8,10 +8,11 @@ colonne:
 id                     BIGINT          PK: AUTO_INCREMENT,  UNIQUE, NOT_NULL
 targa                  VARCHART(15)    UNIQUE,NOT_NULL
 modello                VARCHART(25)    NOT_NULL
+colore                 VARCHART(20)    NULLABLE
 marca                  VARCHART(25)    NOT_NULL
 anno_di_produzione     YEAR            NOT_NULL
 stato                  TEXT            NULLABLE
-Km percorsi            INT             NOT_NULL
+Km percorsi            FLOAT(4,6)      NOT_NULL
 revisionata            VARCHART(2)     NULLABLE
 prezzo di vendita      FLOAT(8,6)      NOT_NULL
 
